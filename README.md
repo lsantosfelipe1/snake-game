@@ -1,29 +1,86 @@
 # 🕹️ Snake Game
 
-### Desenvolvedor
-[Seu Nome Completo]
+## 📋 Descrição
+Um jogo da cobrinha interativo, com modos de jogo incluindo **Clássico** e **Versus Computador**. Este projeto foi desenvolvido para treinar lógica de programação e manipulação de elementos gráficos utilizando HTML5 Canvas e JavaScript.
 
 ---
 
-## 📜 Regras do Jogo
-- **Objetivo**: Controle a cobra para comer o alimento que aparece aleatoriamente no tabuleiro, aumentando a pontuação e o tamanho da cobra.
-- **Derrota**: O jogo termina se a cobra colidir com as paredes ou com ela mesma.
-- **Modo Versus Computador**: Implementado o controle via clique para tornar a experiência mais interativa.
+## 🚀 Como Executar o Jogo
 
----
+### Passos para execução
+1. **Clone o repositório** ou faça o download do código-fonte.
+   ```bash
+   git clone https://github.com/SEU_USUARIO/snake-game.git
+2. Acesse o diretório do projeto:
+   ```bash
+   cd snake-game
+3. Abra o arquivo index.html no navegador.
 
 ## 🎮 Como Jogar
-1. Clique no botão "Play" para iniciar o jogo.
-2. Controle a direção da cobra clicando nas áreas ao redor da cabeça dela:
-   - Clique à direita para ir para a direita.
-   - Clique à esquerda para ir para a esquerda.
-   - Clique acima para ir para cima.
-   - Clique abaixo para ir para baixo.
-3. Continue até atingir a maior pontuação possível sem colidir!
+
+### Modo Clássico
+1. Insira seu nome no campo indicado e clique em **"Jogar"**.
+2. Controle a direção da cobra clicando nas áreas ao redor da cabeça:
+   - **Direita**: Clique à direita da cabeça.
+   - **Esquerda**: Clique à esquerda da cabeça.
+   - **Cima**: Clique acima da cabeça.
+   - **Baixo**: Clique abaixo da cabeça.
+3. Coma os alimentos que aparecem no tabuleiro para aumentar sua pontuação e o tamanho da cobra.
+4. Evite colidir com:
+   - **Paredes**.
+   - **O próprio corpo da cobra**.
+
+### Modo Versus Computador
+1. Clique em **"Versus"** no menu inicial.
+2. Compita contra uma cobra controlada pelo computador:
+   - A cobra do computador tentará comer a comida antes de você.
+3. O jogo termina se:
+   - Você colidir com uma **parede**.
+   - Colidir com o **próprio corpo**.
+   - Colidir com a **cobra do computador**.
 
 ---
 
-## 🚀 Como Executar
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seuusuario/snake-game.git
+## 🌪️ Modo Caótico
+- **Desafio Extra**: A velocidade da cobra aumenta a cada alimento consumido.
+- **Objetivo**: Sobreviva pelo maior tempo possível enquanto acumula pontos!
+
+---
+
+## 🔊 Efeitos Sonoros
+- **Comida**: Som reproduzido ao comer alimentos.
+- **Game Over**: Som tocado ao perder o jogo.
+- **Trilha Sonora**: Música de fundo constante para acompanhar a gameplay.
+
+---
+
+## 📂 Estrutura de Arquivos
+- **`index.html`**: Estrutura do jogo.
+- **`style.css`**: Estilização do canvas e menus.
+- **`script.js`**: Lógica principal do jogo.
+- **`sounds/`**: Pasta com os efeitos sonoros.
+
+---
+
+## 💡 Dicas
+- Planeje seus movimentos com antecedência, especialmente em modos mais rápidos.
+- No **Modo Versus**, roube a comida antes da cobra do computador para aumentar sua pontuação!
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+- **HTML5**: Para criar o canvas e a estrutura da interface.
+- **CSS3**: Para estilização dos menus e do jogo.
+- **JavaScript**: Para lógica do jogo e interatividade.
+
+---
+
+## 🖼️ Visual do Jogo
+Adicione aqui uma captura de tela do jogo:
+
+![Snake Game Preview](https://ibb.co/23ftFKYC)
+
+---
+
+## 📃 Licença
+Este projeto está licenciado sob a [MIT License](LICENSE).
