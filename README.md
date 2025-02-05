@@ -76,7 +76,6 @@ Um jogo da cobrinha interativo, com modos de jogo incluindo **Clássico** e **Ve
 ---
 
 ## 🖼️ Visual do Jogo
-Adicione aqui uma captura de tela do jogo:
 
 ![Snake Game Preview](https://i.postimg.cc/QtKcq5G1/gamepreview.png)
 
