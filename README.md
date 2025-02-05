@@ -10,7 +10,7 @@ Um jogo da cobrinha interativo, com modos de jogo incluindo **Clássico** e **Ve
 ### Passos para execução
 1. **Clone o repositório** ou faça o download do código-fonte.
    ```bash
-   git clone https://github.com/SEU_USUARIO/snake-game.git
+   git clone https://github.com/lsantosfelipe1/snake-game
 2. Acesse o diretório do projeto:
    ```bash
    cd snake-game
@@ -78,7 +78,7 @@ Um jogo da cobrinha interativo, com modos de jogo incluindo **Clássico** e **Ve
 ## 🖼️ Visual do Jogo
 Adicione aqui uma captura de tela do jogo:
 
-![Snake Game Preview](https://ibb.co/23ftFKYC)
+![Snake Game Preview](https://i.postimg.cc/QtKcq5G1/gamepreview.png)
 
 ---
 
